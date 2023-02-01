@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/me.JPG" alt = "My logo" id ="logo" width="30" height="30">
+    <nav>
+        <ul>
+            <li><a href="index.html">\home -> </a></li>
+            <li><a href="projects.html">\projects -></a></li>
+            <li><a href="workexperience.html">\professional experiences -></a></li>
+            <li><a href="contact.html">\contact -></a></li>
+        </ul>
+    </nav>
+    </header>
+    <hr>
+    <main>
+        <h1>Contact</h1>
+        <section id="workcont">
+            <h2>Work related</h2>
+            <form action="/action_page.php">
+                <fieldset>
+                <legend>Contact form :</legend>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Write me something :</label>
+                <input type="text" id="message" name="message"><br><br>
+                <button>Send</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <aside id="othercont">
+            <h2>Other</h2>
+            <p>I am currently based in Nantes, France.</p>
+            <template> <!-- Don't know if I want to show my adress-->
+                <p>Here's my adress :</p>
+                <address>9 Fake Street<br>
+                Nantes<br>
+                FRANCE </address>
+            </template>
+            <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-1.658592224121094%2C47.15073491039044%2C-1.4110565185546877%2C47.26292215345572&amp;layer=mapnik" style="border: 1px solid black"></iframe>
+            <br><small><a href="https://www.openstreetmap.org/#map=13/47.2069/-1.5348">Show the map</a></small>
+        </aside>
+    </main>
+    <hr>
+
+    <footer>
+        <div id="topfooter">
+            <a href="miscellaneous.html">\fun here -></a>
+            <nav>
+                <ul id="Socials">
+                    <li><a href=""><img src="images/me.JPG" alt="My Facebook" width="30" height="30"></a></li>
+                    <li><a href=""><img src="images/me.JPG" alt="My Linkedin" width="30" height="30"></a></li>
+                    <li><a href=""><img src="images/me.JPG" alt="My Github" width="30" height="30"></a></li>
+                </ul>
+            </nav>
+        </div>
+        <p>last updated today</p>
+    </footer>
+</body>
+</html>
